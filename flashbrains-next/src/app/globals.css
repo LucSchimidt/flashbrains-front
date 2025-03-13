@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @plugin "tailwindcss-animate";
@@ -7,8 +8,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-flash-sans);
+  --font-mono: var(--font-flash-serif);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -43,6 +44,15 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  --color-flash-dark-green: var(--flash-dark-green);
+  --color-flash-light-green: var(--flash-light-green);
+  --color-flash-black: var(--flash-black);
+  --color-flash-dark-gray: var(--flash-dark-gray);
+  --color-flash-medium-gray: var(--flash-medium-gray);
+  --color-flash-light-gray: var(--flash-light-gray);
+
+
 }
 
 :root {
@@ -79,6 +89,15 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  --flash-dark-green: oklch(0.68 0.06 172);
+  --flash-light-green: oklch(0.91 0.02 170);
+  --flash-black: oklch(0.1 0 0);
+  --flash-dark-gray: oklch(0.41 0.01 270);
+  --flash-medium-gray: oklch(0.52 0.01 270);
+  --flash-light-gray: oklch(0.94 0 0);
+  --font-flash-sans: "Montserrat", sans-serif;
+  --font-flash-serif: "DM Serif Display", serif;
 }
 
 .dark {
