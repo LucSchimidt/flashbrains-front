@@ -9,7 +9,7 @@ interface Pages {
 
 const pages: Pages[] = [
     {title:"Home", slug:"/"},
-    {title:"Tópicos", slug:"/subjects"},
+    {title:"Tópicos", slug:"/topics"},
     {title:"Configurações", slug:"/config"},
 ]
 

@@ -9,14 +9,17 @@ const resumos: TopicsData = {
         {
             title: "Matemática",
             description: "Funções quadráticas.",
+            href:"/topics/teste",
         },
         {
             title: "Física",
             description: "Termodinâmica.",
+            href:"/topics/teste",
         },
         {
             title: "Química",
             description: "Tabela Periódica.",
+            href:"/topics/teste",
         },
     ],
     type: "resumo"
@@ -28,14 +31,17 @@ const mapas_mentais: TopicsData = {
         {
             title: "Matemática",
             description: "Funções quadráticas.",
+            href:"/topics/teste",
         },
         {
             title: "Matemática",
             description: "Funções quadráticas.",
+            href:"/topics/teste",
         },
         {
             title: "Matemática",
             description: "Funções quadráticas.",
+            href:"/topics/teste",
         },
     ],
     type: "mapa"
